@@ -1,0 +1,15 @@
+F:\===FullStack===\C#+ASP\Library\Library.BLL\bin\Debug\net8.0\Library.BLL.deps.json
+F:\===FullStack===\C#+ASP\Library\Library.BLL\bin\Debug\net8.0\Library.BLL.dll
+F:\===FullStack===\C#+ASP\Library\Library.BLL\bin\Debug\net8.0\Library.BLL.pdb
+F:\===FullStack===\C#+ASP\Library\Library.BLL\bin\Debug\net8.0\Library.DAL.dll
+F:\===FullStack===\C#+ASP\Library\Library.BLL\bin\Debug\net8.0\Library.DAL.pdb
+F:\===FullStack===\C#+ASP\Library\Library.BLL\obj\Debug\net8.0\Library.BLL.csproj.AssemblyReference.cache
+F:\===FullStack===\C#+ASP\Library\Library.BLL\obj\Debug\net8.0\Library.BLL.GeneratedMSBuildEditorConfig.editorconfig
+F:\===FullStack===\C#+ASP\Library\Library.BLL\obj\Debug\net8.0\Library.BLL.AssemblyInfoInputs.cache
+F:\===FullStack===\C#+ASP\Library\Library.BLL\obj\Debug\net8.0\Library.BLL.AssemblyInfo.cs
+F:\===FullStack===\C#+ASP\Library\Library.BLL\obj\Debug\net8.0\Library.BLL.csproj.CoreCompileInputs.cache
+F:\===FullStack===\C#+ASP\Library\Library.BLL\obj\Debug\net8.0\Library..6B42F545.Up2Date
+F:\===FullStack===\C#+ASP\Library\Library.BLL\obj\Debug\net8.0\Library.BLL.dll
+F:\===FullStack===\C#+ASP\Library\Library.BLL\obj\Debug\net8.0\refint\Library.BLL.dll
+F:\===FullStack===\C#+ASP\Library\Library.BLL\obj\Debug\net8.0\Library.BLL.pdb
+F:\===FullStack===\C#+ASP\Library\Library.BLL\obj\Debug\net8.0\ref\Library.BLL.dll

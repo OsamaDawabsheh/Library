@@ -1,0 +1,11 @@
+F:\===FullStack===\C#+ASP\Library\Library.DAL\bin\Debug\net8.0\Library.DAL.deps.json
+F:\===FullStack===\C#+ASP\Library\Library.DAL\bin\Debug\net8.0\Library.DAL.dll
+F:\===FullStack===\C#+ASP\Library\Library.DAL\bin\Debug\net8.0\Library.DAL.pdb
+F:\===FullStack===\C#+ASP\Library\Library.DAL\obj\Debug\net8.0\Library.DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\===FullStack===\C#+ASP\Library\Library.DAL\obj\Debug\net8.0\Library.DAL.AssemblyInfoInputs.cache
+F:\===FullStack===\C#+ASP\Library\Library.DAL\obj\Debug\net8.0\Library.DAL.AssemblyInfo.cs
+F:\===FullStack===\C#+ASP\Library\Library.DAL\obj\Debug\net8.0\Library.DAL.csproj.CoreCompileInputs.cache
+F:\===FullStack===\C#+ASP\Library\Library.DAL\obj\Debug\net8.0\Library.DAL.dll
+F:\===FullStack===\C#+ASP\Library\Library.DAL\obj\Debug\net8.0\refint\Library.DAL.dll
+F:\===FullStack===\C#+ASP\Library\Library.DAL\obj\Debug\net8.0\Library.DAL.pdb
+F:\===FullStack===\C#+ASP\Library\Library.DAL\obj\Debug\net8.0\ref\Library.DAL.dll

@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <partial name="_Head" />
+</head>
+<body>
+    <div class="container-scroller">
+
+        <partial name="_Sidebar" />
+        <div class="container-fluid page-body-wrapper">
+           <partial name="_Navbar" />
+            <div class="main-panel">
+
+                @RenderBody()
+
+                <footer class="footer">
+                        <partial name="_Footer" />
+                </footer>
+            </div>
+        </div>
+    </div>
+    <partial name="_Scripts" />
+</body>
+</html>
