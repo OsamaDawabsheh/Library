@@ -1,0 +1,39 @@
+﻿@model UserVM
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+@section header  {
+    User
+}
+@section headerBreadcrumb1 {
+    User
+}
+@section headerBreadcrumb2 {
+    Details
+}
+
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title mb-4 bg-primary text-light p-2 text-center ">Details</h4>
+            <div class="d-flex justify-content-around mb-4">
+
+                <div class="d-flex flex-column">
+                    <h5 class="mb-4">Name : @Model.UserName</h5>
+                    <p>Address : @Model.Address</p>
+                    <p>Phone Number : @Model.PhoneNumber</p>
+
+                    <p>Created At : @Model.CreatedAt</p>
+
+                     <p>Status : @(Model.IsDeleted ? "Deleted" : "Actvie")</p>
+
+                </div>
+                <img src="~/files/users/@Model.Img" alt="user img" />
+            </div>
+
+
+        </div>
+    </div>

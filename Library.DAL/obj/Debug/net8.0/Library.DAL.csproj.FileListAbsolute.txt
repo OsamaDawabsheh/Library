@@ -9,3 +9,7 @@ F:\===FullStack===\C#+ASP\Library\Library.DAL\obj\Debug\net8.0\Library.DAL.dll
 F:\===FullStack===\C#+ASP\Library\Library.DAL\obj\Debug\net8.0\refint\Library.DAL.dll
 F:\===FullStack===\C#+ASP\Library\Library.DAL\obj\Debug\net8.0\Library.DAL.pdb
 F:\===FullStack===\C#+ASP\Library\Library.DAL\obj\Debug\net8.0\ref\Library.DAL.dll
+F:\===FullStack===\C#+ASP\Library\Library.DAL\obj\Debug\net8.0\Library.DAL.csproj.AssemblyReference.cache
+F:\===FullStack===\C#+ASP\Library\Library.DAL\obj\Debug\net8.0\Library.DAL.sourcelink.json
+F:\===FullStack===\C#+ASP\Library\Library.DAL\bin\Debug\net8.0\Library.DAL.runtimeconfig.json
+F:\===FullStack===\C#+ASP\Library\Library.DAL\obj\Debug\net8.0\Library.DAL.genruntimeconfig.cache

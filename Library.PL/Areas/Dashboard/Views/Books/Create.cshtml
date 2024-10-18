@@ -1,0 +1,92 @@
+﻿@model BookVM
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+@section header  {
+    Book
+}
+@section headerBreadcrumb1 {
+    Book
+}
+@section headerBreadcrumb2 {
+    Create
+}
+
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title mb-4 bg-primary text-light p-2 text-center ">Create</h4>
+            <form class="forms-sample" asp-controller="Books" asp-action="Create" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label asp-for="BookFile">Book File</label>
+                    <input asp-for="BookFile" class="form-control border border-1 border-dark">
+                </div>
+                <div class="form-group">
+                    <label asp-for="Image">Book Image</label>
+                    <input asp-for="Image" class="form-control border border-1 border-dark">
+                </div>
+                <div class="form-group">
+                    <label asp-for="Title">Book Name</label>
+                    <input asp-for="Title" class="form-control border border-1 border-dark">
+                </div>
+                <div class="form-group">
+                    <label asp-for="Description">Book Description</label>
+                    <textarea asp-for="Description" rows="5" class="form-control border border-1 border-dark"></textarea>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ISBN">Book ISBN</label>
+                    <input asp-for="ISBN" class="form-control border border-1 border-dark">
+                </div>
+                <div class="form-group">
+                    <label asp-for="Author">Book Author</label>
+                    <input asp-for="Author" class="form-control border border-1 border-dark">
+                </div>
+                <div class="form-group">
+                    <label asp-for="PublicationDate">Book Publication Date</label>
+                    <input asp-for="PublicationDate" class="form-control border border-1 border-dark">
+                </div>
+                <div class="form-group">
+                    <select asp-for="categoriesId" asp-items="Model.selectLists" class="form-select" id="multiple-select-field" multiple aria-label="multiple select">
+                        <option></option>
+
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-primary me-2">Create</button>
+                <button asp-controller="Books" asp-action="Index" class="btn btn-light">Cancel</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="https://cdn.tiny.cloud/1/xu7g2sf8g6ks0zab5hhx7bw4ep9kzvz2ih4ul2mku9l9mh9d/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            height: 250,
+        });
+    </script>
+
+    <!-- Select2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+    <!-- jQuery (required for Select2) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Select2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Initialize Select2 on the select element
+            $('#multiple-select-field').select2({
+                placeholder: "Select options",  // Placeholder text
+                allowClear: true,             // Optional: Allows clearing selections
+                theme: "classic"
+            });
+        });
+    </script>
+}

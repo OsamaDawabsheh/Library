@@ -1,0 +1,92 @@
+﻿@model List<RoleVM>
+
+@{
+    ViewData["Title"] = "Roles";
+}
+
+@section header  {
+    Role
+}
+@section headerBreadcrumb1 {
+    Role
+}
+@section headerBreadcrumb2 {
+    All Roles
+}
+
+@section Styles{
+
+    <link href="//cdn.datatables.net/2.1.8/css/dataTables.dataTables.min.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/buttons/3.1.2/css/buttons.dataTables.min.css" rel="stylesheet" />
+
+}
+
+
+<div class="d-grid justify-content-start gap-2 mb-3">
+
+    <a asp-controller="Accounts" asp-action="CreateRole" class="btn btn-sm btn-success btn-icon-text">
+        <i class="mdi mdi-plus"></i> Add Role
+    </a>
+</div>
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title mb-4 bg-primary text-light p-2 text-center">All Roles</h4>
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Role #</th>
+                            <th>Role Name</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @for (int i = 0; i < Model.Count(); i++)
+                        {
+                            <tr>
+                                <td>@(i+1)</td>
+                                <td>
+                                    @Model.ElementAt(i).Name
+                                </td>
+                                <td>
+                                    <a asp-controller="Accounts" asp-action="EditRole" asp-route-id="@Model.ElementAt(i).Id" class="btn btn-outline-behance">Edit</a>
+                                    <a asp-controller="Accounts" asp-action="DeleteRole" asp-route-id="@Model.ElementAt(i).Id" class="btn btn-outline-danger">Delete</a>
+
+                                </td>
+
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="//cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
+
+    <script src="https://cdn.datatables.net/buttons/3.1.2/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js" integrity="sha512-XMVd28F1oH/O71fzwBnV7HucLxVwtxf26XV8P4wPk26EDxuGZ91N8bsOttmnomcCD3CS5ZMRL50H0GgOHvegtg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.12/pdfmake.min.js" integrity="sha512-axXaF5grZBaYl7qiM6OMHgsgVXdSLxqq0w7F4CQxuFyrcPmn0JfnqsOtYHUun80g6mRRdvJDrTCyL8LQqBOt/Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.12/vfs_fonts.min.js" integrity="sha512-EFlschXPq/G5zunGPRSYqazR1CMKj0cQc8v6eMrQwybxgIbhsfoO5NAMQX3xFDQIbFlViv53o7Hy+yCWw6iZxA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.datatables.net/buttons/3.1.2/js/buttons.colVis.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/3.1.2/js/buttons.print.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/3.1.2/js/buttons.html5.min.js"></script>
+
+
+    <script>
+        new DataTable('table', {
+            layout: {
+                topStart: {
+                    buttons: [
+                        'copy', 'excel', 'pdf'
+                    ]
+                }
+            }
+        });
+
+    </script>
+}

@@ -33,7 +33,6 @@ F:\===FullStack===\C#+ASP\Library\Library.PL\bin\Debug\net8.0\Microsoft.DiaSymRe
 F:\===FullStack===\C#+ASP\Library\Library.PL\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
 F:\===FullStack===\C#+ASP\Library\Library.PL\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 F:\===FullStack===\C#+ASP\Library\Library.PL\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-F:\===FullStack===\C#+ASP\Library\Library.PL\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 F:\===FullStack===\C#+ASP\Library\Library.PL\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 F:\===FullStack===\C#+ASP\Library\Library.PL\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 F:\===FullStack===\C#+ASP\Library\Library.PL\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
@@ -265,3 +264,13 @@ F:\===FullStack===\C#+ASP\Library\Library.PL\obj\Debug\net8.0\Library.PL.pdb
 F:\===FullStack===\C#+ASP\Library\Library.PL\obj\Debug\net8.0\Library.PL.genruntimeconfig.cache
 F:\===FullStack===\C#+ASP\Library\Library.PL\obj\Debug\net8.0\ref\Library.PL.dll
 F:\===FullStack===\C#+ASP\Library\Library.PL\obj\Debug\net8.0\scopedcss\Areas\Dashboard\Views\Shared\_Layout.cshtml.rz.scp.css
+F:\===FullStack===\C#+ASP\Library\Library.PL\obj\Debug\net8.0\Library.PL.sourcelink.json
+F:\===FullStack===\C#+ASP\Library\Library.PL\bin\Debug\net8.0\AutoMapper.dll
+F:\===FullStack===\C#+ASP\Library\Library.PL\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+F:\===FullStack===\C#+ASP\Library\Library.PL\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\===FullStack===\C#+ASP\Library\Library.PL\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+F:\===FullStack===\C#+ASP\Library\Library.PL\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\===FullStack===\C#+ASP\Library\Library.PL\bin\Debug\net8.0\libman.json
+F:\===FullStack===\C#+ASP\Library\Library.PL\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+F:\===FullStack===\C#+ASP\Library\Library.PL\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+F:\===FullStack===\C#+ASP\Library\Library.PL\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll

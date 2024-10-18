@@ -1,24 +1,42 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-  <partial name="_Head" />
+    <partial name="_Head" />
+    @RenderSection("Styles", required: false)
+
 </head>
 <body>
     <div class="container-scroller">
 
         <partial name="_Sidebar" />
         <div class="container-fluid page-body-wrapper">
-           <partial name="_Navbar" />
+            <partial name="_Navbar" />
             <div class="main-panel">
+                <div class="content-wrapper">
+                    <div class="page-header">
+                        <h3 class="page-title">@RenderSection("header", required: true) </h3>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item active" aria-current="page">@RenderSection("headerBreadcrumb1", required: true)</li>
+                                <li class="breadcrumb-item active" aria-current="page">@RenderSection("headerBreadcrumb2", required: true)</li>
 
-                @RenderBody()
+                            </ol>
+                        </nav>
+                    </div>
+                    <div class="row">
+                        @RenderBody()
 
+                    </div>
+                </div>
                 <footer class="footer">
-                        <partial name="_Footer" />
+                    <partial name="_Footer" />
                 </footer>
             </div>
+
+
         </div>
     </div>
     <partial name="_Scripts" />
+    @RenderSection("Scripts" , required:false)
 </body>
 </html>

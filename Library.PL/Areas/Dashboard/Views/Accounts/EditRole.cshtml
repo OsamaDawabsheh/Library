@@ -1,0 +1,34 @@
+﻿@model RoleVM
+
+@{
+    ViewData["Title"] = "EditRole";
+}
+
+@section header  {
+    Role
+}
+@section headerBreadcrumb1 {
+    Role
+}
+@section headerBreadcrumb2 {
+    Edit 
+}
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title mb-4 bg-primary text-light p-2 text-center">Edit</h4>
+            <form class="forms-sample" asp-controller="Accounts" asp-action="EditRole" enctype="multipart/form-data">
+                <input asp-for="Id" type="hidden" />
+
+                <div class="form-group">
+
+                    <label asp-for="@Model.Name">User Image</label>
+                    <input asp-for="@Model.Name" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-primary me-2">Update</button>
+                <button asp-controller="Accounts" asp-action="Roles" class="btn btn-light">Cancel</button>
+            </form>
+        </div>
+    </div>
+</div>

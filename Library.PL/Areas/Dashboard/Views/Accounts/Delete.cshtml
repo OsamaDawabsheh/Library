@@ -1,0 +1,30 @@
+﻿@model UserVM
+@{
+    ViewData["Title"] = "Delete";
+}
+
+@section header  {
+    User
+}
+@section headerBreadcrumb1 {
+    User
+}
+@section headerBreadcrumb2 {
+    Delete
+}
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title mb-4 bg-danger text-light p-2 text-center ">Delete</h4>
+
+            <form class="forms-sample" asp-controller="Accounts" asp-action="Delete">
+                <input asp-for="Id" type="hidden"/>
+                <p> Are you sure you want to delete<span class="fw-bold"> @Model.UserName </span>account ?</p>
+
+                <button type="submit" class="btn btn-danger me-2">Submit</button>
+                <button asp-controller="Accounts" asp-action="Index" class="btn btn-light">Cancel</button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -13,3 +13,4 @@ F:\===FullStack===\C#+ASP\Library\Library.BLL\obj\Debug\net8.0\Library.BLL.dll
 F:\===FullStack===\C#+ASP\Library\Library.BLL\obj\Debug\net8.0\refint\Library.BLL.dll
 F:\===FullStack===\C#+ASP\Library\Library.BLL\obj\Debug\net8.0\Library.BLL.pdb
 F:\===FullStack===\C#+ASP\Library\Library.BLL\obj\Debug\net8.0\ref\Library.BLL.dll
+F:\===FullStack===\C#+ASP\Library\Library.BLL\obj\Debug\net8.0\Library.BLL.sourcelink.json

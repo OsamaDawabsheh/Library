@@ -1,6 +1,9 @@
-using Library.PL.Data;
+using Library.DAL.Data;
+using Library.DAL.Models;
+using Library.PL.Mapping;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,9 +13,17 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true).AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddAutoMapper(Assembly.GetAssembly(typeof(MappingProfile)));
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Home/Login";  
+    options.AccessDeniedPath = "/Dashboard/Account/AccessDenied"; 
+});
 
 var app = builder.Build();
 

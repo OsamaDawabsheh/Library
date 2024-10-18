@@ -1,0 +1,29 @@
+﻿@model BookVM
+@{
+    ViewData["Title"] = "Delete";
+}
+
+@section header  {
+    Book
+}
+@section headerBreadcrumb1 {
+    Book
+}
+@section headerBreadcrumb2 {
+    Delete
+}
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title mb-4 bg-danger text-light p-2 text-center ">Delete</h4>
+
+            <form class="forms-sample" asp-controller="Books" asp-action="Delete">
+                <p> Are you sure you want to delete<span class="fw-bold"> @Model.Title </span>Book ?</p>
+
+                <button type="submit" class="btn btn-danger me-2">Submit</button>
+                <button asp-controller="Books" asp-action="Index" class="btn btn-light">Cancel</button>
+            </form>
+        </div>
+    </div>
+</div>

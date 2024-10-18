@@ -1,0 +1,31 @@
+﻿@model RoleVM
+@{
+    ViewData["Title"] = "CreateRole";
+}
+
+@section header  {
+    Role
+}
+@section headerBreadcrumb1 {
+    Role
+}
+@section headerBreadcrumb2 {
+    Create
+}
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title mb-4 bg-primary text-light p-2 text-center">Create Role</h4>
+            <form class="forms-sample" asp-controller="Accounts" asp-action="CreateRole">
+                <div class="form-group">
+                    <label asp-for="Name">Account Role</label>
+                    <input asp-for="Name" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-primary me-2">Create</button>
+                <button asp-controller="Accounts" asp-action="Roles" class="btn btn-light">Cancel</button>
+            </form>
+        </div>
+    </div>
+</div>
+

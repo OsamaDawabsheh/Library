@@ -1,0 +1,44 @@
+﻿@model CategoryVM
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+@section header  {
+    Category
+}
+@section headerBreadcrumb1 {
+    Category
+}
+@section headerBreadcrumb2 {
+    Edit
+}
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title mb-4 bg-primary text-light p-2 text-center ">Edit</h4>
+
+            <form class="forms-sample" asp-controller="Categories" asp-action="Edit" enctype="multipart/form-data">
+                <input type="hidden" asp-for="Id" />
+                <input type="hidden" asp-for="Img" />
+                <div class="form-group">
+                    <label asp-for="Name">Name</label>
+                    <input asp-for="Name" class="form-control border border-1 border-dark">
+                </div>
+                <div class="form-group">
+                    <label asp-for="Image">Image</label>
+                    <input asp-for="Image" class="form-control border border-1 border-dark">
+                </div>
+                <div class="form-group lh-1">
+                    <label asp-for="IsDeleted">IsDeleted :</label>
+                    <input asp-for="IsDeleted">
+                    <span class="fst-italic">@(Model.IsDeleted ? "Deleted" : "Active")</span>
+                </div>
+
+                <button type="submit" class="btn btn-primary me-2">Update</button>
+                <button asp-controller="Categories" asp-action="Index" class="btn btn-light">Cancel</button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,58 @@
+﻿@model ChangeRoleVM
+
+@{
+    ViewData["Title"] = "ChangeUserRole";
+}
+
+
+@section header  {
+    User
+}
+@section headerBreadcrumb1 {
+    User
+
+}
+@section headerBreadcrumb2 {
+    Change Role
+}
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title mb-4 bg-primary text-light p-2 text-center ">Change Role</h4>
+
+            <form class="forms-sample" asp-controller="Accounts" asp-action="ChangeUserRole">
+                <div class="form-group">
+                    <input asp-for="Id" type="hidden" />
+                    <select asp-for="SelectedRole" asp-items="Model.selectLists" class="form-select" id="multiple-select-field" aria-label="multiple select">
+                        <option></option>
+
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary me-2">Change</button>
+                <button asp-controller="Accounts" asp-action="Index" class="btn btn-light">Cancel</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <!-- Select2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+    <!-- jQuery (required for Select2) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Select2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Initialize Select2 on the select element
+            $('#multiple-select-field').select2({
+                placeholder: "Select options",  // Placeholder text
+                allowClear: true,             // Optional: Allows clearing selections
+                theme: "classic"
+            });
+        });
+    </script>
+}

@@ -26,8 +26,80 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = F:\===FullStack===\C#+ASP\Library\Library.PL
 build_property._RazorSourceGeneratorDebug = 
 
+[F:/===FullStack===/C\#+ASP/Library/Library.PL/Areas/Dashboard/Views/Accounts/ChangeUserRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEFjY291bnRzXENoYW5nZVVzZXJSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/===FullStack===/C\#+ASP/Library/Library.PL/Areas/Dashboard/Views/Accounts/CreateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEFjY291bnRzXENyZWF0ZVJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/===FullStack===/C\#+ASP/Library/Library.PL/Areas/Dashboard/Views/Accounts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEFjY291bnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/===FullStack===/C\#+ASP/Library/Library.PL/Areas/Dashboard/Views/Accounts/DeleteRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEFjY291bnRzXERlbGV0ZVJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/===FullStack===/C\#+ASP/Library/Library.PL/Areas/Dashboard/Views/Accounts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEFjY291bnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/===FullStack===/C\#+ASP/Library/Library.PL/Areas/Dashboard/Views/Accounts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEFjY291bnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/===FullStack===/C\#+ASP/Library/Library.PL/Areas/Dashboard/Views/Accounts/EditRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEFjY291bnRzXEVkaXRSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/===FullStack===/C\#+ASP/Library/Library.PL/Areas/Dashboard/Views/Accounts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEFjY291bnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/===FullStack===/C\#+ASP/Library/Library.PL/Areas/Dashboard/Views/Accounts/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEFjY291bnRzXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/===FullStack===/C\#+ASP/Library/Library.PL/Areas/Dashboard/Views/Accounts/Roles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEFjY291bnRzXFJvbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/===FullStack===/C\#+ASP/Library/Library.PL/Areas/Dashboard/Views/Books/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEJvb2tzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/===FullStack===/C\#+ASP/Library/Library.PL/Areas/Dashboard/Views/Books/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEJvb2tzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/===FullStack===/C\#+ASP/Library/Library.PL/Areas/Dashboard/Views/Books/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEJvb2tzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/===FullStack===/C\#+ASP/Library/Library.PL/Areas/Dashboard/Views/Books/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEJvb2tzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/===FullStack===/C\#+ASP/Library/Library.PL/Areas/Dashboard/Views/Books/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEJvb2tzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/===FullStack===/C\#+ASP/Library/Library.PL/Areas/Dashboard/Views/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXENhdGVnb3JpZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/===FullStack===/C\#+ASP/Library/Library.PL/Areas/Dashboard/Views/Categories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXENhdGVnb3JpZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/===FullStack===/C\#+ASP/Library/Library.PL/Areas/Dashboard/Views/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXENhdGVnb3JpZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/===FullStack===/C\#+ASP/Library/Library.PL/Areas/Dashboard/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXENhdGVnb3JpZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/===FullStack===/C\#+ASP/Library/Library.PL/Areas/Dashboard/Views/Shared/Error.cshtml]
@@ -70,16 +142,44 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/===FullStack===/C\#+ASP/Library/Library.PL/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/===FullStack===/C\#+ASP/Library/Library.PL/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/===FullStack===/C\#+ASP/Library/Library.PL/Views/Home/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/===FullStack===/C\#+ASP/Library/Library.PL/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/===FullStack===/C\#+ASP/Library/Library.PL/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/===FullStack===/C\#+ASP/Library/Library.PL/Views/Shared/_Head.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/===FullStack===/C\#+ASP/Library/Library.PL/Views/Shared/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/===FullStack===/C\#+ASP/Library/Library.PL/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/===FullStack===/C\#+ASP/Library/Library.PL/Views/Shared/_Scripts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TY3JpcHRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/===FullStack===/C\#+ASP/Library/Library.PL/Views/Shared/_Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlYmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/===FullStack===/C\#+ASP/Library/Library.PL/Views/Shared/_ValidationScriptsPartial.cshtml]
