@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <partial name="_Head" />
+    @RenderSection("Styles", required: false)
+
 </head>
 <body>
 
@@ -112,9 +114,7 @@
         </div>
     </div>
 
-    <partial name="_Sidebar" />
 
-    </div>
 
     <header>
         <partial name="_Header" />
@@ -123,22 +123,13 @@
 
     
 
-<footer class="py-5">
+<footer class="pt-5 mt-5" style=" box-shadow: 0px -4px 10px rgba(50, 50, 50, 0.25); ">
     <partial name="_Footer">
 
+
 </footer>
-    <div id="footer-bottom">
-        <div class="container-lg">
-            <div class="row">
-                <div class="col-md-6 copyright">
-                    <p>© 2024 Organic. All rights reserved.</p>
-                </div>
-                <div class="col-md-6 credit-link text-start text-md-end">
-                    <p>HTML Template by <a href="https://templatesjungle.com/">TemplatesJungle</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a> </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <partial name="_Scripts">
+<partial name="_Scripts">
+    @RenderSection("Scripts", required: false)
+
 </body>
 </html>

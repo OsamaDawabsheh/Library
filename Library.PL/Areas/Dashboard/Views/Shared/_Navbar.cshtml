@@ -1,4 +1,7 @@
-﻿<nav class="navbar col-lg-12 col-12 p-lg-0 fixed-top d-flex flex-row">
+﻿@inject Microsoft.AspNetCore.Identity.UserManager<Library.DAL.Models.ApplicationUser> UserManager
+
+
+<nav class="navbar col-lg-12 col-12 p-lg-0 fixed-top d-flex flex-row">
     <div class="navbar-menu-wrapper d-flex align-items-stretch justify-content-between">
         <a class="navbar-brand brand-logo-mini align-self-center d-lg-none" asp-controller="Books" asp-action="Index">
             <i class="mdi mdi-library fs-2 menu-icon text-info"></i>
@@ -7,20 +10,20 @@
             <i class="mdi mdi-menu"></i>
         </button>
         <ul class="navbar-nav">
-            <li class="nav-item  nav-profile dropdown border-0">
-                <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-bs-toggle="dropdown">
-                    <img class="nav-profile-img me-2" alt="" src="~/dashboard/images/faces/face1.jpg">
-                    <span class="profile-name">Henry Klein</span>
-                </a>
-                <div class="dropdown-menu navbar-dropdown w-100" aria-labelledby="profileDropdown">
-                    <a class="dropdown-item" href="#">
-                        <i class="mdi mdi-cached me-2 text-success"></i> Activity Log
-                    </a>
-                    <a class="dropdown-item" href="#">
-                        <i class="mdi mdi-logout me-2 text-primary"></i> Signout
-                    </a>
-                </div>
-            </li>
+            <li class="nav-item border-0">
+                @{
+                    var user = await UserManager.GetUserAsync(User);
+                    if (user != null)
+                    {
+
+                        <a class="nav-link" asp-controller="Accounts" asp-action="Profile" asp-route-id="@user.Id">
+                            <img class="nav-profile-img me-2" alt="" src="~/files/users/@user.Img">
+                            <span class="profile-name">@user.UserName</span>
+                        </a>
+
+                    }
+                }
+           </li>
 
         </ul>
         <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">

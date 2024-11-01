@@ -52,7 +52,7 @@
                                 </td>
                                 <td>
                                     <a asp-controller="Accounts" asp-action="EditRole" asp-route-id="@Model.ElementAt(i).Id" class="btn btn-outline-behance">Edit</a>
-                                    <a asp-controller="Accounts" asp-action="DeleteRole" asp-route-id="@Model.ElementAt(i).Id" class="btn btn-outline-danger">Delete</a>
+                                    <a href="javascript:void(0)" data-id="@Model.ElementAt(i).Id" class="btn btn-outline-danger deleteBtn">Delete</a>
 
                                 </td>
 
@@ -88,5 +88,49 @@
             }
         });
 
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+
+        const elements = document.querySelectorAll(".deleteBtn");
+        elements.forEach((btn) => {
+            btn.addEventListener("click", async () => {
+                Swal.fire({
+                    title: "Are you sure?",
+                    text: "You won't be able to revert this!",
+                    icon: "warning",
+                    showCancelButton: true,
+                    confirmButtonColor: "#3085d6",
+                    cancelButtonColor: "#d33",
+                    confirmButtonText: "Yes, delete it!"
+                }).then(async (result) => {
+                    if (result.isConfirmed) {
+                        const id = btn.dataset.id;
+                        const response = await fetch(`/Dashboard/Accounts/ConfirmDeleteRole/${id}`, {
+                            method: 'POST',
+                            headers: {
+                                "Content-Type": "application/json"
+                            },
+                            body: JSON.stringify({ id })
+                        });
+
+                        if (response.ok) {
+                            const data = await response.json();
+                            btn.closest("tr").remove();
+
+                            Swal.fire({
+                                title: "Deleted!",
+                                text: "The category has been deleted.",
+                                icon: "success"
+
+                            });
+                        }
+                    }
+                });
+
+            })
+        })
     </script>
 }

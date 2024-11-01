@@ -14,16 +14,19 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true).AddRoles<IdentityRole>()
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+    .AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddAutoMapper(Assembly.GetAssembly(typeof(MappingProfile)));
 
 builder.Services.ConfigureApplicationCookie(options =>
 {
-    options.LoginPath = "/Home/Login";  
-    options.AccessDeniedPath = "/Dashboard/Account/AccessDenied"; 
+    options.LoginPath = "/Accounts/Login";  
+    options.AccessDeniedPath = "/Accounts/AccessDenied"; 
 });
+
+builder.Services.AddAuthentication(); // Add authentication middleware
+
 
 var app = builder.Build();
 
@@ -44,6 +47,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication(); // Enable authentication
 app.UseAuthorization();
 
 app.MapControllerRoute(

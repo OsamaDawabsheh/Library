@@ -1,4 +1,4 @@
-﻿@model CreateUserVM
+﻿@model Library.PL.ViewModels.RegisterVM
 @{
     ViewData["Title"] = "Register";
 }
@@ -13,38 +13,60 @@
     Create
 }
 
+@{
+    var msg = TempData["Error"] as string;
+
+    var emailExist = ViewBag.EmailExist as string;
+
+
+}
+
 <div class="col-12 grid-margin stretch-card">
     <div class="card">
         <div class="card-body">
             <h4 class="card-title mb-4 bg-primary text-light p-2 text-center">Register</h4>
-            <form class="forms-sample" asp-controller="Accounts" asp-action="Register" enctype="multipart/form-data">    
+            <form class="forms-sample" asp-controller="Accounts" asp-action="Register" enctype="multipart/form-data">
                 <div class="form-group">
                     <label asp-for="Image">User Image</label>
                     <input asp-for="Image" class="form-control">
+                    <span asp-validation-for="Image" class="text-danger"></span>
+
                 </div>
                 <div class="form-group">
                     <label asp-for="UserName">User Name</label>
                     <input asp-for="UserName" class="form-control">
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+
                 </div>
                 <div class="form-group">
                     <label asp-for="Email">Email</label>
                     <input asp-for="Email" class="form-control">
+                    <span asp-validation-for="Email" class="text-danger"></span>
+
                 </div>
                 <div class="form-group">
                     <label asp-for="Password">Password</label>
                     <input asp-for="Password" class="form-control">
+                    <span asp-validation-for="Password" class="text-danger"></span>
+
                 </div>
                 <div class="form-group">
                     <label asp-for="ConfirmPassword">Confirm Password</label>
                     <input asp-for="ConfirmPassword" class="form-control">
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+
                 </div>
                 <div class="form-group">
                     <label asp-for="PhoneNumber">Phone</label>
                     <input asp-for="PhoneNumber" class="form-control">
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+
                 </div>
                 <div class="form-group">
                     <label asp-for="Address">Address</label>
                     <input asp-for="Address" class="form-control">
+                    <span asp-validation-for="Address" class="text-danger"></span>
+
                 </div>
                 <button type="submit" class="btn btn-primary me-2">Add</button>
                 <button asp-controller="Accounts" asp-action="Index" class="btn btn-light">Cancel</button>
@@ -53,3 +75,52 @@
     </div>
 </div>
 
+@section Scripts{
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+
+        window.onload = () => {
+             if ("@msg" !== "") {
+const Toast = Swal.mixin({
+  toast: true,
+  position: "top-end",
+  showConfirmButton: false,
+  timer: 3000,
+  timerProgressBar: true,
+  didOpen: (toast) => {
+    toast.onmouseenter = Swal.stopTimer;
+    toast.onmouseleave = Swal.resumeTimer;
+  }
+});
+Toast.fire({
+  icon: "error",
+  title: "@msg"
+});
+
+            }
+                          if ("@emailExist" !== "") {
+const Toast = Swal.mixin({
+  toast: true,
+  position: "top-end",
+  showConfirmButton: false,
+  timer: 3000,
+  timerProgressBar: true,
+  didOpen: (toast) => {
+    toast.onmouseenter = Swal.stopTimer;
+    toast.onmouseleave = Swal.resumeTimer;
+  }
+});
+Toast.fire({
+  icon: "error",
+  title: "@emailExist"
+});
+
+ }
+
+        }
+
+
+    </script>
+
+
+}

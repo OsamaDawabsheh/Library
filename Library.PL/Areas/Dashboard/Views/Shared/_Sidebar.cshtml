@@ -58,8 +58,8 @@
         </li>
         <li class="nav-item">
             <a href="#role" class="nav-link" data-bs-toggle="collapse" aria-expanded="false" aria-controls="forms">
-                <i class="mdi mdi-account menu-icon"></i>
-                <span class="menu-title">User</span>
+                <i class="mdi mdi-target-account menu-icon"></i>
+                <span class="menu-title">Role</span>
                 <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="role">
@@ -74,7 +74,11 @@
             <div class="nav-link">
                 <div class="mt-4">
                     <ul class="mt-4 ps-0">
-                        <li>Sign Out</li>
+                        <li>
+                            <form asp-controller="Accounts" asp-action="Logout" >
+                                <button type="submit" class="nav-link text-dark">Logout</button>
+                            </form>
+                        </li>
                     </ul>
                 </div>
             </div>

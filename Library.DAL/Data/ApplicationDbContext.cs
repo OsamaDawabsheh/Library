@@ -18,6 +18,10 @@ namespace Library.DAL.Data
             modelBuilder.Entity<ApplicationUser>()
        .Property(b => b.CreatedAt).HasDefaultValueSql("GETDATE()");
 
+            modelBuilder.Entity<ApplicationUser>()
+    .HasIndex(u => u.Email)
+    .IsUnique();
+
             modelBuilder.Entity<Book>()
         .HasMany(b => b.categories)
         .WithMany(c => c.books)

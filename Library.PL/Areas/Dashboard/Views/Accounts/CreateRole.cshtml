@@ -21,6 +21,8 @@
                 <div class="form-group">
                     <label asp-for="Name">Account Role</label>
                     <input asp-for="Name" class="form-control">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+
                 </div>
                 <button type="submit" class="btn btn-primary me-2">Create</button>
                 <button asp-controller="Accounts" asp-action="Roles" class="btn btn-light">Cancel</button>

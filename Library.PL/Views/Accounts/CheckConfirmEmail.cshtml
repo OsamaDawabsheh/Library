@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewData["Title"] = "CheckConfirmEmail";
+}
+
+@{ 
+    var confirmError = TempData["ConfirmError"] as string;
+}
+
+<div class="container d-flex justify-content-center align-items-center py-5" style="height:500px">
+    <div class="d-flex flex-column justify-content-center align-items-center px-4 pb-5 border border-2 border-dark rounded-5 w-100">
+
+        <i class="mdi mdi-email-outline d-flex justify-content-center text-dark w-100" style="font-size:72px"></i>
+
+        <h2>Please check your Email to confirm it</h2>
+
+    </div>
+</div>
+
+@section Scripts{ 
+
+    <script>
+        window.onload = () => {
+
+            if ("@confirmError" !== "") {
+                const Toast = Swal.mixin({
+                    toast: true,
+                    position: "top-end",
+                    showConfirmButton: false,
+                    timer: 3000,
+                    timerProgressBar: true,
+                    didOpen: (toast) => {
+                        toast.onmouseenter = Swal.stopTimer;
+                        toast.onmouseleave = Swal.resumeTimer;
+                    }
+                });
+                Toast.fire({
+                    icon: "error",
+                    title: "@confirmError"
+                });
+
+            }
+        }
+    </script>
+}

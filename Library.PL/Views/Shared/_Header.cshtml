@@ -1,78 +1,72 @@
-﻿<div class="container-fluid">
-    <div class="row py-3 border-bottom">
+﻿@inject Microsoft.AspNetCore.Identity.UserManager<Library.DAL.Models.ApplicationUser> UserManager
 
-        <div class="col-sm-4 col-lg-2 text-center text-sm-start d-flex gap-3 justify-content-center justify-content-md-start">
-            <div class="d-flex align-items-center my-3 my-sm-0">
-                <a href="index.html">
-                    <img src="~/site/images/logo.svg" alt="logo" class="img-fluid">
-                </a>
-            </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                    aria-controls="offcanvasNavbar">
-                <svg width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#menu"></use></svg>
-            </button>
-        </div>
 
-        <div class="col-sm-6 offset-sm-2 offset-md-0 col-lg-4">
-            <div class="search-bar row bg-light p-2 rounded-4">
-                <div class="col-md-4 d-none d-md-block">
-                    <select class="form-select border-0 bg-transparent">
-                        <option>All Categories</option>
-                        <option>Groceries</option>
-                        <option>Drinks</option>
-                        <option>Chocolates</option>
-                    </select>
-                </div>
-                <div class="col-11 col-md-7">
-                    <form id="search-form" class="text-center" action="index.html" method="post">
-                        <input type="text" class="form-control border-0 bg-transparent" placeholder="Search for more than 20,000 products">
-                    </form>
-                </div>
-                <div class="col-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M21.71 20.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z" /></svg>
-                </div>
-            </div>
-        </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+    <div class="container">
+        <a asp-controller="Home" asp-action="Index" class="text-decoration-none fs-3 ">
+            Library
+            @*<img src="~/site/images/logo.svg" alt="logo" class="img-fluid">*@
+        </a>        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-center align-items-center">
+                            <li class="nav-item active">
+                                <a asp-controller="Home" asp-action="Index" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a asp-controller="Books" asp-action="Index" class="nav-link">Books</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a asp-controller="Categories" asp-action="Index" class="nav-link">Categories</a>
+                            </li>
+                            <li>
+                                <a asp-controller="About" asp-action="Index" class="nav-link">About</a>
 
-        <div class="col-lg-4">
-            <ul class="navbar-nav list-unstyled d-flex flex-row gap-3 gap-lg-5 justify-content-center flex-wrap align-items-center mb-0 fw-bold text-uppercase text-dark">
-                <li class="nav-item active">
-                    <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle pe-3" role="button" id="pages" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
-                    <ul class="dropdown-menu border-0 p-3 rounded-0 shadow" aria-labelledby="pages">
-                        <li><a href="index.html" class="dropdown-item">About Us </a></li>
-                        <li><a href="index.html" class="dropdown-item">Shop </a></li>
-                        <li><a href="index.html" class="dropdown-item">Single Product </a></li>
-                        <li><a href="index.html" class="dropdown-item">Cart </a></li>
-                        <li><a href="index.html" class="dropdown-item">Checkout </a></li>
-                        <li><a href="index.html" class="dropdown-item">Blog </a></li>
-                        <li><a href="index.html" class="dropdown-item">Single Post </a></li>
-                        <li><a href="index.html" class="dropdown-item">Styles </a></li>
-                        <li><a href="index.html" class="dropdown-item">Contact </a></li>
-                        <li><a href="index.html" class="dropdown-item">Thank You </a></li>
-                        <li><a href="index.html" class="dropdown-item">My Account </a></li>
-                        <li><a href="index.html" class="dropdown-item">404 Error </a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
+                            </li>
+                        </ul>
+                        @{
+                            var user = await UserManager.GetUserAsync(User);
+                            if (user != null)
+                            {
+                                                <div class="d-flex justify-content-center">
+                                                    <div class="dropdown d-flex justify-content-center" style="width:70px">
+                                                        <button class="btn  dropdown-toggle p-0  " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                            <img src="~/files/users/@user.Img" alt="user img" width="50" height="50" class="rounded-circle" />
+                                                        </button>
+                                                        <ul class="dropdown-menu shadow" style="left:unset !important" data-bs-popper="static">
+                                                            <li>
+                                                                <a class="dropdown-item text-center px-0 mx-0" asp-controller="Accounts" asp-action="Profile" asp-route-id="@user.Id">Profile</a>
+                                                            </li>
+                                                            <li>
+                                                                <form method="post" asp-controller="Accounts" asp-action="Logout" class="dropdown-item text-center">
+                                                                    <button type="submit" class="dropdown-item">Logout</button>
+                                                                </form>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
 
-        <div class="col-sm-8 col-lg-2 d-flex gap-5 align-items-center justify-content-center justify-content-sm-end">
-            <ul class="d-flex justify-content-end list-unstyled m-0">
-                <li>
-                    <a asp-controller="Home" asp-action="Login"  class="p-2 mx-1 text-decoration-none">
-                        Login
-                    </a>
-                </li>
-                <li>
-                    <a asp-controller="Home" asp-action="Register" class="p-2 mx-1 text-decoration-none">
-                        Register
-                    </a>
-                </li>
-            </ul>
-        </div>
+                            }
+                            else
+                            {
+                                <ul class="d-flex justify-content-end list-unstyled m-0 gap-4 justify-content-center">
+                                    <li>
+                                        <a asp-controller="Accounts" asp-action="Login" class="nav-link text-dark">
+                                            Login
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a asp-controller="Accounts" asp-action="Register" class="nav-link text-dark">
+                                            Register
+                                        </a>
+                                    </li>
+                                </ul>
+                            }
+                        }
 
+                    </div>
     </div>
-</div>
+</nav>
+
+

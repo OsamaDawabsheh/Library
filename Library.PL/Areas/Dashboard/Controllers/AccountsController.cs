@@ -3,6 +3,7 @@ using Library.DAL.Data;
 using Library.DAL.Models;
 using Library.PL.Areas.Dashboard.ViewModels;
 using Library.PL.Helpers;
+using Library.PL.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -60,11 +61,24 @@ namespace Library.PL.Areas.Dashboard.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Register(CreateUserVM model)
+        public async Task<IActionResult> Register(RegisterVM model)
         {
 
             if (!ModelState.IsValid)
             {
+                return View(model);
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            var existingUser = await userManager.FindByEmailAsync(model.Email);
+            if (existingUser != null)
+            {
+                ViewBag.EmailExist = "Email is already taken";
+
                 return View(model);
             }
 
@@ -73,15 +87,75 @@ namespace Library.PL.Areas.Dashboard.Controllers
 
             var user = mapper.Map<ApplicationUser>(model);
 
-            var result = await userManager.CreateAsync(user,model.Password);
+            var result = await userManager.CreateAsync(user, model.Password);
 
             if (result.Succeeded)
             {
-                await userManager.AddToRoleAsync(user,"user");
-                return RedirectToAction(nameof(Index));
+                await userManager.AddToRoleAsync(user, "user");
+
+                var token = await userManager.GenerateEmailConfirmationTokenAsync(user);
+                var confirmEmailURL = Url.Action("ConfirmEmail", "Accounts", new { area = "", id = user.Id, token = token }, protocol: HttpContext.Request.Scheme);
+
+                var body = $@"
+<html>
+        <body>
+ <div style='width: 100%; padding: 20px; display: flex; justify-content: center;'>
+            <table style='max-width: 400px; border: 3px solid #4CAF50; padding: 20px; border-radius: 50px; text-align: center;'>
+                <tr>
+                    <td>
+                        <h3 style='color: #4CAF50; font-size: 24px; margin-bottom: 20px;'>Confirm Email</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='pading: 10px 0;'>
+                        <p style='color: #333; font-size: 16px;'>
+                            If you requested to confirm your email, please click the link below.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='padding: 20px 0;'>
+                        <a href='{confirmEmailURL}'' style='background-color: #4CAF50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 20px; display: inline-block;'>
+                            Confirm Email
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='padding: 10px 0;'>
+                        <p style='color: #333; font-size: 14px;'>
+                            If you didn't request a email confirm, please ignore this email.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='padding-top: 20px;'>
+                        <p style='color: #666; font-size: 14px;'>
+                            Best regards,<br>Library
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        </body>
+    </html>
+";
+
+                var email = new Email()
+                {
+                    Subject = "Confirm Email",
+                    Receiver = model.Email,
+                    Body = body
+                };
+                EmailSettings.SendEmail(email);
+
+                return RedirectToAction("CheckConfirmEmail","Accounts" ,new  { area = ""});
             }
+            TempData["Error"] = string.Join(" ", result.Errors.Select(e => e.Description));
             return View(model);
         }
+
+       
+        
 
         [HttpGet]
         public IActionResult Edit(string id)
@@ -99,20 +173,28 @@ namespace Library.PL.Areas.Dashboard.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Edit(UserVM model)
         {
+            if (true)
+            {
+                ModelState.Remove("Roles");
+
+            }
             if (model.Image is null)
             {
                 ModelState.Remove("image");
+
             }
             else
             {
-                if (!ModelState.IsValid)
+                FilesSettings.DeleteFile(model.Img, "users");
+                model.Img = FilesSettings.UploadFile(model.Image, "users");
+
+            }
+
+            if (!ModelState.IsValid)
                 {
                     return View(model);
                 }
 
-                FilesSettings.DeleteFile(model.Img, "users");
-                model.Img = FilesSettings.UploadFile(model.Image, "users");
-            }
 
 
             var user = context.Users.Find(model.Id);
@@ -143,11 +225,10 @@ namespace Library.PL.Areas.Dashboard.Controllers
             return View(mapper.Map<UserVM>(user));
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Delete(UserVM model)
+     
+        public async Task<IActionResult> DeleteConfirm(string id)
         {
-            var user =  context.Users.Find(model.Id);
+            var user =  context.Users.Find(id);
 
             if (user is null)
             {
@@ -159,7 +240,7 @@ namespace Library.PL.Areas.Dashboard.Controllers
 
             context.SaveChanges();
 
-            return RedirectToAction(nameof(Index));
+            return Ok(new { msg = "The account deleted successfully" });
 
         }
 
@@ -266,11 +347,10 @@ namespace Library.PL.Areas.Dashboard.Controllers
             return View(mapper.Map<RoleVM>(role));
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteRole(RoleVM model)
+
+        public async Task<IActionResult> ConfirmDeleteRole(string id)
         {
-            var role = await roleManager.FindByIdAsync(model.Id);
+            var role = await roleManager.FindByIdAsync(id);
 
             if (!ModelState.IsValid)
             {
@@ -286,7 +366,8 @@ namespace Library.PL.Areas.Dashboard.Controllers
 
             if (result.Succeeded)
             {
-                return RedirectToAction(nameof(Roles));
+                return Ok(new { msg = "The role deleted successfully" });
+
             }
 
 
@@ -338,6 +419,25 @@ namespace Library.PL.Areas.Dashboard.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Logout()
+        {
+            TempData["Logout"] = "You logout successfully";
+            await signInManager.SignOutAsync();
+            return RedirectToAction("Login","Accounts", new { area = "" });
+        }
+
+        public IActionResult profile(string id)
+        {
+            var admin = context.Users.Find(id);
+
+            return View(mapper.Map<UserVM>(admin));
+        }
+
+
 
     }
 

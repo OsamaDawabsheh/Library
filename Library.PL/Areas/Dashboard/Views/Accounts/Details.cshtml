@@ -22,18 +22,20 @@
             <div class="d-flex justify-content-around mb-4">
 
                 <div class="d-flex flex-column">
-                    <h5 class="mb-4">Name : @Model.UserName</h5>
-                    <p>Address : @Model.Address</p>
-                    <p>Phone Number : @Model.PhoneNumber</p>
+                    <p class="mb-4"><span class="fw-bold">Name :</span> @Model.UserName</p>
+                    <p><span class="fw-bold">Email :</span> @Model.Email</p>
+                    <p><span class="fw-bold">Address :</span> @Model.Address</p>
+                    <p><span class="fw-bold">Phone Number :</span> @Model.PhoneNumber</p>
 
-                    <p>Created At : @Model.CreatedAt</p>
+                    <p><span class="fw-bold">Created At :</span> @Model.CreatedAt</p>
 
-                     <p>Status : @(Model.IsDeleted ? "Deleted" : "Actvie")</p>
+                     <p><span class="fw-bold">Status :</span> @(Model.IsDeleted ? "Deleted" : "Actvie")</p>
 
                 </div>
-                <img src="~/files/users/@Model.Img" alt="user img" />
+                <img src="~/files/users/@Model.Img" alt="user img" width="400" height="250"/>
             </div>
 
 
         </div>
+    </div>
     </div>

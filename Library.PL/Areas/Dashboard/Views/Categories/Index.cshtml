@@ -47,7 +47,7 @@
                         {
                             <tr>
                                 <td>@(i+1)</td>
-                                <td><img src="~/files/categories/@Model.ElementAt(i).Img" alt="Category Name" width="500" /></td>
+                                <td><img src="~/files/categories/@Model.ElementAt(i).Img" alt="Category img" width="500" /></td>
                                 <td>@Model.ElementAt(i).Name</td>
                                 <td>@(Model.ElementAt(i).IsDeleted ? "Deleted": "Active")</td>
                                 <td>
@@ -75,7 +75,7 @@
     <script src="https://cdn.datatables.net/buttons/3.1.2/js/buttons.print.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/3.1.2/js/buttons.html5.min.js"></script>
 
-
+    
     <script>
         new DataTable('table', {
             layout: {
@@ -89,12 +89,12 @@
 
     </script>
 
-    @*<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <script>
 
         const elements = document.querySelectorAll(".deleteBtn");
-        elements.forEach( async(btn) => {
+        elements.forEach( (btn) => {
             btn.addEventListener("click", async () => {
                 Swal.fire({
                     title: "Are you sure?",
@@ -107,16 +107,17 @@
                 }).then(async (result) => {
                     if (result.isConfirmed) {
                         const id = btn.dataset.id;
-                      const response = await fetch(`/Dashboard/Categories/DeleteConfirm/${id}`, {
+                        const response = await fetch(`/Dashboard/Categories/DeleteConfirm/${id}`, {
                           method: 'POST',
                           headers: {
                               "Content-Type": "application/json"
-                          },
-                      },);
-                        console.log(response);
-                        const data = await response.json();
+                            },
+                            body: JSON.stringify({ id })
+                        });
+
                         if (response.ok) {
-                            document.querySelector("deleteBtn").closest("tr").remove();
+                        const data = await response.json();
+                            btn.closest("tr").remove();
 
                             Swal.fire({
                                 title: "Deleted!",
@@ -130,7 +131,7 @@
                
             })
         })
-    </script>*@
+    </script>
 
 
 }

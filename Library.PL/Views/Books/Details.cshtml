@@ -1,0 +1,53 @@
+﻿@model Library.PL.Areas.Dashboard.ViewModels.BookVM
+@{
+    ViewData["Title"] = "Details";
+}
+
+@{
+    var bookCategories = @ViewData["BookCategories"] as List<Library.DAL.Models.BookCategory>;
+}
+
+<div class="col-12 grid-margin stretch-card container my-5">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title mb-4 bg-primary text-light p-2 text-center ">Details</h4>
+            <div class="d-flex justify-content-around mb-4">
+
+                <div class="d-flex flex-column">
+                    <h5 class="mb-4">Title : @Model.Title</h5>
+                    <p>Description : @Html.Raw(Model.Description)</p>
+                    <p>Author : @Model.Author</p>
+
+                    <p>ISBN : @Model.ISBN</p>
+
+                    <p>Publication Date : @Model.PublicationDate</p>
+
+                    <p>
+                        Categories :
+                        @Html.Raw(string.Join(" , ", bookCategories
+                        .Where(bc => bc.BookId == Model.Id)
+                        .Select(category => category.category.Name)))
+                    </p>
+
+                </div>
+                <img src="~/files/images/@(Model.Img)" alt="book img" />
+            </div>
+
+            @if (User.IsInRole("User"))
+            {
+            <embed src="~/files/books/@(Model.File)"
+                   type="application/pdf"
+                   frameBorder="0"
+                   scrolling="auto"
+                   height="700"
+                   width="100%">
+            </embed>
+            }
+else
+            {
+                <h3 class="border border-3 border-warning text-warning d-flex justify-content-center py-3" >Please <a class="mx-3 text-decoration-none text-primary" asp-controller="Accounts" asp-action="Login">login</a> to access to book PDF</h3>
+            }
+
+        </div>
+    </div>
+</div>

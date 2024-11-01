@@ -24,7 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Accounts\" />
     <Folder Include="wwwroot\files\images\" />
     <Folder Include="wwwroot\files\books\" />
     <Folder Include="wwwroot\files\categories\" />

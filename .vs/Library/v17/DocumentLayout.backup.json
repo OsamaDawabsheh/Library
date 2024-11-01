@@ -3,230 +3,208 @@
   "WorkspaceRootPath": "F:\\===FullStack===\\C#\u002BASP\\Library\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\accounts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\accounts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\viewmodels\\categoryvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\viewmodels\\categoryvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\accounts\\changeuserrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\accounts\\changeuserrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\views\\accounts\\checkconfirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\views\\accounts\\checkconfirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\accounts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\accounts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\accounts\\roles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\accounts\\roles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\views\\accounts\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\views\\accounts\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\views\\accounts\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\views\\accounts\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\shared\\_head.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\shared\\_head.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\views\\shared\\_head.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\views\\shared\\_head.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\accounts\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\accounts\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\accounts\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\accounts\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\accounts\\roles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\accounts\\roles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\accounts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\accounts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\accounts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\accounts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\accounts\\createrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\accounts\\createrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\accounts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\accounts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\accounts\\deleterole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\accounts\\deleterole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\views\\accounts\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\views\\accounts\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\viewmodels\\uservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\viewmodels\\uservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABBAD005-010F-491F-AE91-2D6FD0B04E65}|Library.DAL\\Library.DAL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.dal\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABBAD005-010F-491F-AE91-2D6FD0B04E65}|Library.DAL\\Library.DAL.csproj|solutionrelative:library.dal\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABBAD005-010F-491F-AE91-2D6FD0B04E65}|Library.DAL\\Library.DAL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.dal\\models\\bookcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABBAD005-010F-491F-AE91-2D6FD0B04E65}|Library.DAL\\Library.DAL.csproj|solutionrelative:library.dal\\models\\bookcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABBAD005-010F-491F-AE91-2D6FD0B04E65}|Library.DAL\\Library.DAL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.dal\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABBAD005-010F-491F-AE91-2D6FD0B04E65}|Library.DAL\\Library.DAL.csproj|solutionrelative:library.dal\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\viewmodels\\rolevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\viewmodels\\rolevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\viewmodels\\bookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\viewmodels\\bookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\viewmodels\\createuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\viewmodels\\createuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\viewmodels\\changerolevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\viewmodels\\changerolevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABBAD005-010F-491F-AE91-2D6FD0B04E65}|Library.DAL\\Library.DAL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.dal\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABBAD005-010F-491F-AE91-2D6FD0B04E65}|Library.DAL\\Library.DAL.csproj|solutionrelative:library.dal\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\views\\categories\\categorybooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\views\\categories\\categorybooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\accounts\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\accounts\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\accounts\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\accounts\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\viewmodels\\rolevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\viewmodels\\rolevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\viewmodels\\uservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\viewmodels\\uservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\views\\accounts\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\views\\accounts\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\helpers\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\helpers\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\accounts\\deleterole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\accounts\\deleterole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\accounts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\accounts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\accounts\\createrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\accounts\\createrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\accounts\\changeuserrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\accounts\\changeuserrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\viewmodels\\bookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\viewmodels\\bookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\views\\accounts\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\views\\accounts\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\viewmodels\\changepasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\viewmodels\\changepasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\viewmodels\\forgotpasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\viewmodels\\forgotpasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\viewmodels\\changerolevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\viewmodels\\changerolevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\viewmodels\\categoryvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\viewmodels\\categoryvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\accounts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\accounts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hp\\AppData\\Local\\SourceServer\\9e8389229f8f87f57a370fdaa81220418e697dfc7fc077100c027229a53c840f\\Library.PL\\Areas\\Dashboard\\Controllers\\BooksController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABBAD005-010F-491F-AE91-2D6FD0B04E65}|Library.DAL\\Library.DAL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.dal\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABBAD005-010F-491F-AE91-2D6FD0B04E65}|Library.DAL\\Library.DAL.csproj|solutionrelative:library.dal\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\wwwroot\\site\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\wwwroot\\site\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\wwwroot\\site\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\wwwroot\\site\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\views\\shared\\_scripts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\views\\shared\\_scripts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/OSAMA/Library/True/SqlTable/dbo.Books.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\wwwroot\\dashboard\\vendors\\flot\\jquery.flot.categories.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\wwwroot\\dashboard\\vendors\\flot\\jquery.flot.categories.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABBAD005-010F-491F-AE91-2D6FD0B04E65}|Library.DAL\\Library.DAL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.dal\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABBAD005-010F-491F-AE91-2D6FD0B04E65}|Library.DAL\\Library.DAL.csproj|solutionrelative:library.dal\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABBAD005-010F-491F-AE91-2D6FD0B04E65}|Library.DAL\\Library.DAL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.dal\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABBAD005-010F-491F-AE91-2D6FD0B04E65}|Library.DAL\\Library.DAL.csproj|solutionrelative:library.dal\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABBAD005-010F-491F-AE91-2D6FD0B04E65}|Library.DAL\\Library.DAL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.dal\\data\\migrations\\20241012084353_editrelation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABBAD005-010F-491F-AE91-2D6FD0B04E65}|Library.DAL\\Library.DAL.csproj|solutionrelative:library.dal\\data\\migrations\\20241012084353_editrelation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -236,244 +214,267 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Categories\\Index.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Categories\\Index.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Categories\\Index.cshtml",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Categories\\Index.cshtml",
-              "ViewState": "AgIAAEIAAAAAAAAAAADwv1gAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-06T11:04:40.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Controllers\\CategoriesController.cs",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIMAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T09:59:03.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Books\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Books\\Edit.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Books\\Edit.cshtml",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Books\\Edit.cshtml",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-13T16:40:57.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Books\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Books\\Delete.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Books\\Delete.cshtml",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Books\\Delete.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-11T18:22:10.536Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Books\\Details.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Books\\Details.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Books\\Details.cshtml",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Books\\Details.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-13T19:00:36.122Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Index.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Index.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Index.cshtml",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Index.cshtml",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGAAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-14T18:24:06.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ChangeUserRole.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\ChangeUserRole.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\ChangeUserRole.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\ChangeUserRole.cshtml",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\ChangeUserRole.cshtml",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T20:11:03.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoryVM.cs",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\ViewModels\\CategoryVM.cs",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\ViewModels\\CategoryVM.cs",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\ViewModels\\CategoryVM.cs",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\ViewModels\\CategoryVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T09:55:39.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "AccountsController.cs",
               "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Controllers\\AccountsController.cs",
               "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Controllers\\AccountsController.cs",
               "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Controllers\\AccountsController.cs",
               "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Controllers\\AccountsController.cs",
-              "ViewState": "AgIAAB8BAAAAAAAAAAAhwKkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAQwGAAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T11:29:02.711Z",
+              "WhenOpened": "2024-10-28T09:04:31.09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Categories\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Categories\\Delete.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Categories\\Delete.cshtml",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Categories\\Delete.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAiwB4AAAAAAAAAAAAAAA==",
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "Library.PL\\Controllers\\AccountsController.cs",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "Library.PL\\Controllers\\AccountsController.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAlwJwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:26:47.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Accounts\\Register.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Views\\Accounts\\Register.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Accounts\\Register.cshtml",
+              "RelativeToolTip": "Library.PL\\Views\\Accounts\\Register.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAHQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-08T08:44:36.768Z",
+              "WhenOpened": "2024-10-29T08:07:15.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Accounts\\Login.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Views\\Accounts\\Login.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Accounts\\Login.cshtml",
+              "RelativeToolTip": "Library.PL\\Views\\Accounts\\Login.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T08:05:24.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Index.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Index.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Index.cshtml",
+              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Index.cshtml",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAowIwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T09:08:07.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CheckConfirmEmail.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Accounts\\CheckConfirmEmail.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Views\\Accounts\\CheckConfirmEmail.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Accounts\\CheckConfirmEmail.cshtml",
+              "RelativeToolTip": "Library.PL\\Views\\Accounts\\CheckConfirmEmail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T10:55:45.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Edit.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Edit.cshtml",
+              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Edit.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T08:22:42.882Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Roles.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Roles.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Roles.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Roles.cshtml",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Roles.cshtml",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFYAAAARAAAAAAAAAA==",
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Register.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Register.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Register.cshtml",
+              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Register.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAH0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-14T19:55:24Z",
+              "WhenOpened": "2024-10-29T08:09:24.298Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Books\\Index.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Books\\Index.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Books\\Index.cshtml",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Books\\Index.cshtml",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAAAGAAAAARAAAAAAAAAA==",
+              "Title": "Roles.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Roles.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Roles.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Roles.cshtml",
+              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Roles.cshtml",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAqwEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-06T10:09:12.262Z",
+              "WhenOpened": "2024-10-28T09:03:53.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Accounts\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Views\\Accounts\\Profile.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Accounts\\Profile.cshtml",
+              "RelativeToolTip": "Library.PL\\Views\\Accounts\\Profile.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T10:57:37.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Controllers\\BooksController.cs",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAhwLkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T08:54:09.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\About\\Index.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Views\\About\\Index.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\About\\Index.cshtml",
+              "RelativeToolTip": "Library.PL\\Views\\About\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T07:39:03.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Views\\Books\\Index.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "Library.PL\\Views\\Books\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T18:03:51.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Views\\Home\\Index.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Library.PL\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T18:04:15.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "Library.PL\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T17:54:33.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "Library.PL\\Controllers\\AboutController.cs",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "Library.PL\\Controllers\\AboutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T10:47:29.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "_Navbar.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Shared\\_Navbar.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Shared\\_Navbar.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Shared\\_Navbar.cshtml",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Shared\\_Navbar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAB1AAAAAAAAAA==",
+              "Title": "CategoryBooks.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Categories\\CategoryBooks.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Views\\Categories\\CategoryBooks.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Categories\\CategoryBooks.cshtml",
+              "RelativeToolTip": "Library.PL\\Views\\Categories\\CategoryBooks.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAD4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-08T11:48:04.654Z"
+              "WhenOpened": "2024-10-28T18:03:21.062Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Books\\Create.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Books\\Create.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Books\\Create.cshtml",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Books\\Create.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-09T07:03:19.899Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_Sidebar.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Shared\\_Sidebar.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Shared\\_Sidebar.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Shared\\_Sidebar.cshtml",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Shared\\_Sidebar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-18T06:16:14.216Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_Head.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Shared\\_Head.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Shared\\_Head.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Shared\\_Head.cshtml",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Shared\\_Head.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-18T13:31:46.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Categories\\Create.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Categories\\Create.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Categories\\Create.cshtml",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Categories\\Create.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-06T10:03:28.192Z"
+              "DocumentIndex": 22,
+              "Title": "RoleVM.cs",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\ViewModels\\RoleVM.cs",
+              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\ViewModels\\RoleVM.cs",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\ViewModels\\RoleVM.cs",
+              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\ViewModels\\RoleVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:12:23.942Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "_Head.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Shared\\_Head.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Views\\Shared\\_Head.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Shared\\_Head.cshtml",
-              "RelativeToolTip": "Library.PL\\Views\\Shared\\_Head.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-08T11:45:35.261Z"
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Controllers\\CategoriesController.cs",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T08:29:00.35Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Library.PL\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAAaAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "profile.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\profile.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\profile.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\profile.cshtml",
+              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-12T12:12:34.519Z"
+              "WhenOpened": "2024-10-30T08:28:30.246Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -483,21 +484,36 @@
               "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Categories\\Edit.cshtml",
               "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Categories\\Edit.cshtml",
               "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Categories\\Edit.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-08T07:51:51.239Z"
+              "WhenOpened": "2024-10-30T18:53:10.326Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Register.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Register.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Register.cshtml",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Register.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADEAAABFAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Books\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Books\\Edit.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Books\\Edit.cshtml",
+              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Books\\Edit.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADwAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-12T12:31:34.956Z"
+              "WhenOpened": "2024-10-30T18:53:47.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserVM.cs",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\ViewModels\\UserVM.cs",
+              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\ViewModels\\UserVM.cs",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\ViewModels\\UserVM.cs",
+              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\ViewModels\\UserVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:12:29.219Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -507,275 +523,253 @@
               "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\EditRole.cshtml",
               "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\EditRole.cshtml",
               "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\EditRole.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-14T20:19:12.416Z"
+              "WhenOpened": "2024-10-30T08:28:05.184Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Edit.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Edit.cshtml",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Edit.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAwDsAAABEAAAAAAAAAA==",
+              "DocumentIndex": 27,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Categories\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Categories\\Delete.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Categories\\Delete.cshtml",
+              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Categories\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-14T18:57:03.13Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Details.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Details.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Details.cshtml",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-14T19:32:17.021Z"
+              "WhenOpened": "2024-10-30T08:30:29.816Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "CreateRole.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\CreateRole.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\CreateRole.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\CreateRole.cshtml",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\CreateRole.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Accounts\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Views\\Accounts\\ForgotPassword.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Accounts\\ForgotPassword.cshtml",
+              "RelativeToolTip": "Library.PL\\Views\\Accounts\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC8AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-14T19:42:18.402Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Delete.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Delete.cshtml",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Delete.cshtml",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBkAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-14T19:13:49.465Z"
+              "WhenOpened": "2024-10-30T07:51:17.885Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwDEAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T08:28:58.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Helpers\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "Library.PL\\Helpers\\EmailSettings.cs",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Helpers\\EmailSettings.cs",
+              "RelativeToolTip": "Library.PL\\Helpers\\EmailSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T12:59:49.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "DeleteRole.cshtml",
               "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\DeleteRole.cshtml",
               "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\DeleteRole.cshtml",
               "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\DeleteRole.cshtml",
               "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\DeleteRole.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-14T20:34:11.555Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAACJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-09T14:48:39.386Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Controllers\\BooksController.cs",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Controllers\\BooksController.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAnwKUAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T17:32:00.893Z",
+              "WhenOpened": "2024-10-30T08:26:09.666Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "UserVM.cs",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\ViewModels\\UserVM.cs",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\ViewModels\\UserVM.cs",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\ViewModels\\UserVM.cs",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\ViewModels\\UserVM.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T18:53:36.113Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Category.cs",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.DAL\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Library.DAL\\Models\\Category.cs",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.DAL\\Models\\Category.cs",
-              "RelativeToolTip": "Library.DAL\\Models\\Category.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T06:25:41.514Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 31,
-              "Title": "BookCategory.cs",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.DAL\\Models\\BookCategory.cs",
-              "RelativeDocumentMoniker": "Library.DAL\\Models\\BookCategory.cs",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.DAL\\Models\\BookCategory.cs",
-              "RelativeToolTip": "Library.DAL\\Models\\BookCategory.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T19:09:38.728Z"
+              "Title": "ChangeUserRole.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\ChangeUserRole.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\ChangeUserRole.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\ChangeUserRole.cshtml",
+              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\ChangeUserRole.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T08:09:33.649Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
-              "Title": "Book.cs",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.DAL\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "Library.DAL\\Models\\Book.cs",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.DAL\\Models\\Book.cs",
-              "RelativeToolTip": "Library.DAL\\Models\\Book.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T14:16:58.798Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "RoleVM.cs",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\ViewModels\\RoleVM.cs",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\ViewModels\\RoleVM.cs",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\ViewModels\\RoleVM.cs",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\ViewModels\\RoleVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T19:39:21.994Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
               "Title": "BookVM.cs",
               "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\ViewModels\\BookVM.cs",
               "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\ViewModels\\BookVM.cs",
               "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\ViewModels\\BookVM.cs",
               "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\ViewModels\\BookVM.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA9wBgAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T10:34:50.111Z"
+              "WhenOpened": "2024-10-29T08:09:50.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Books\\Index.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Books\\Index.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAqwDgAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T08:54:20.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CreateRole.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\CreateRole.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\CreateRole.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\CreateRole.cshtml",
+              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\CreateRole.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T08:09:36.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Delete.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Delete.cshtml",
+              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Delete.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T08:09:37.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Accounts\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Views\\Accounts\\ChangePassword.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Accounts\\ChangePassword.cshtml",
+              "RelativeToolTip": "Library.PL\\Views\\Accounts\\ChangePassword.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T08:04:00.294Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 35,
-              "Title": "CreateUserVM.cs",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\ViewModels\\CreateUserVM.cs",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\ViewModels\\CreateUserVM.cs",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\ViewModels\\CreateUserVM.cs",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\ViewModels\\CreateUserVM.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAcwBwAAAAAAAAAAAAAAA==",
+              "Title": "ChangePasswordVM.cs",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\ViewModels\\ChangePasswordVM.cs",
+              "RelativeDocumentMoniker": "Library.PL\\ViewModels\\ChangePasswordVM.cs",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\ViewModels\\ChangePasswordVM.cs",
+              "RelativeToolTip": "Library.PL\\ViewModels\\ChangePasswordVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T09:55:10.921Z"
+              "WhenOpened": "2024-10-29T08:13:10.419Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 36,
+              "Title": "ForgotPasswordVM.cs",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\ViewModels\\ForgotPasswordVM.cs",
+              "RelativeDocumentMoniker": "Library.PL\\ViewModels\\ForgotPasswordVM.cs",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\ViewModels\\ForgotPasswordVM.cs",
+              "RelativeToolTip": "Library.PL\\ViewModels\\ForgotPasswordVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:13:17.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\ViewModels\\LoginVM.cs",
+              "RelativeDocumentMoniker": "Library.PL\\ViewModels\\LoginVM.cs",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\ViewModels\\LoginVM.cs",
+              "RelativeToolTip": "Library.PL\\ViewModels\\LoginVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:04:48.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RegisterVM.cs",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\ViewModels\\RegisterVM.cs",
+              "RelativeDocumentMoniker": "Library.PL\\ViewModels\\RegisterVM.cs",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\ViewModels\\RegisterVM.cs",
+              "RelativeToolTip": "Library.PL\\ViewModels\\RegisterVM.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwB0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:06:07.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Views\\_ViewStart.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Library.PL\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T07:59:05.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
               "Title": "ChangeRoleVM.cs",
               "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\ViewModels\\ChangeRoleVM.cs",
               "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\ViewModels\\ChangeRoleVM.cs",
               "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\ViewModels\\ChangeRoleVM.cs",
               "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\ViewModels\\ChangeRoleVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T05:25:16.63Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Home\\Login.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Views\\Home\\Login.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Home\\Login.cshtml",
-              "RelativeToolTip": "Library.PL\\Views\\Home\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-12T12:40:25.343Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Program.cs",
-              "RelativeDocumentMoniker": "Library.PL\\Program.cs",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Program.cs",
-              "RelativeToolTip": "Library.PL\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T10:54:59.566Z"
+              "WhenOpened": "2024-10-29T08:11:48.048Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 41,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Views\\Home\\Index.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Library.PL\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAH0GAAAAAAAAAADwvxoHAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-12T12:14:25.599Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "LoginVM.cs",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\ViewModels\\LoginVM.cs",
-              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\ViewModels\\LoginVM.cs",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\ViewModels\\LoginVM.cs",
-              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\ViewModels\\LoginVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Title": "CategoryVM.cs",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\ViewModels\\CategoryVM.cs",
+              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\ViewModels\\CategoryVM.cs",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\ViewModels\\CategoryVM.cs",
+              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\ViewModels\\CategoryVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T11:22:28.921Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Library.PL\\Controllers\\HomeController.cs",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Library.PL\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAIwEcAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T05:44:18.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T08:11:16.567Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 42,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.DAL\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Library.DAL\\Models\\ApplicationUser.cs",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.DAL\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "Library.DAL\\Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T11:12:39.973Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "_Header.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Shared\\_Header.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Views\\Shared\\_Header.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Shared\\_Header.cshtml",
-              "RelativeToolTip": "Library.PL\\Views\\Shared\\_Header.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEUAAAArAAAAAAAAAA==",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Details.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Details.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Details.cshtml",
+              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-12T11:39:46.402Z"
+              "WhenOpened": "2024-10-29T08:09:38.876Z"
             },
             {
               "$type": "Document",
@@ -785,149 +779,94 @@
               "RelativeDocumentMoniker": "Library.PL\\Mapping\\MappingProfile.cs",
               "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Mapping\\MappingProfile.cs",
               "RelativeToolTip": "Library.PL\\Mapping\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T05:06:43.489Z"
+              "WhenOpened": "2024-10-29T08:06:58.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Views\\_ViewImports.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Library.PL\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T07:59:08.683Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 45,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\AppData\\Local\\SourceServer\\9e8389229f8f87f57a370fdaa81220418e697dfc7fc077100c027229a53c840f\\Library.PL\\Areas\\Dashboard\\Controllers\\BooksController.cs",
-              "ToolTip": "C:\\Users\\Hp\\AppData\\Local\\SourceServer\\9e8389229f8f87f57a370fdaa81220418e697dfc7fc077100c027229a53c840f\\Library.PL\\Areas\\Dashboard\\Controllers\\BooksController.cs [Read Only]",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAUwA0AAAAAAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T07:21:31.014Z",
-              "EditorCaption": " [Read Only]"
+              "Title": "libman.json",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\libman.json",
+              "RelativeDocumentMoniker": "Library.PL\\libman.json",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\libman.json",
+              "RelativeToolTip": "Library.PL\\libman.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-29T07:59:03.03Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 46,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.DAL\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Library.DAL\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.DAL\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Library.DAL\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAYAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T14:52:52.842Z"
+              "Title": "style.css",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\wwwroot\\site\\style.css",
+              "RelativeDocumentMoniker": "Library.PL\\wwwroot\\site\\style.css",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\wwwroot\\site\\style.css",
+              "RelativeToolTip": "Library.PL\\wwwroot\\site\\style.css",
+              "ViewState": "AgIAADsBAAAAAAAAAAAqwEQBAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-28T19:00:45.867Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 47,
-              "Title": "_Footer.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Shared\\_Footer.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Views\\Shared\\_Footer.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Shared\\_Footer.cshtml",
-              "RelativeToolTip": "Library.PL\\Views\\Shared\\_Footer.cshtml",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAqwH0AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-12T12:17:00.119Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "_Sidebar.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Shared\\_Sidebar.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Views\\Shared\\_Sidebar.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Shared\\_Sidebar.cshtml",
-              "RelativeToolTip": "Library.PL\\Views\\Shared\\_Sidebar.cshtml",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAqwH0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-12T12:12:30.862Z"
+              "Title": "script.js",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\wwwroot\\site\\js\\script.js",
+              "RelativeDocumentMoniker": "Library.PL\\wwwroot\\site\\js\\script.js",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\wwwroot\\site\\js\\script.js",
+              "RelativeToolTip": "Library.PL\\wwwroot\\site\\js\\script.js",
+              "ViewState": "AgIAABwAAAAAAAAAAAAjwCEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-28T18:54:08.34Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 49,
-              "Title": "_Scripts.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Shared\\_Scripts.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Views\\Shared\\_Scripts.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Shared\\_Scripts.cshtml",
-              "RelativeToolTip": "Library.PL\\Views\\Shared\\_Scripts.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-12T12:15:17.812Z"
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Library.PL\\Controllers\\BooksController.cs",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Library.PL\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T18:30:15.092Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 50,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Home\\Register.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Views\\Home\\Register.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Home\\Register.cshtml",
-              "RelativeToolTip": "Library.PL\\Views\\Home\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Categories\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-12T11:37:04.521Z"
+              "WhenOpened": "2024-10-28T18:00:28.729Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "20241012084353_editRelation.cs",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.DAL\\Data\\Migrations\\20241012084353_editRelation.cs",
-              "RelativeDocumentMoniker": "Library.DAL\\Data\\Migrations\\20241012084353_editRelation.cs",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.DAL\\Data\\Migrations\\20241012084353_editRelation.cs",
-              "RelativeToolTip": "Library.DAL\\Data\\Migrations\\20241012084353_editRelation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 48,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Library.PL\\Controllers\\CategoriesController.cs",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Library.PL\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABwAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T08:43:53.238Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "dbo.Books.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/OSAMA/Library/True/SqlTable/dbo.Books.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/OSAMA/Library/True/SqlTable/dbo.Books.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-08T11:11:16.125Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\appsettings.json",
-              "RelativeDocumentMoniker": "Library.PL\\appsettings.json",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\appsettings.json",
-              "RelativeToolTip": "Library.PL\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-06T06:39:56.333Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "jquery.flot.categories.js",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\wwwroot\\dashboard\\vendors\\flot\\jquery.flot.categories.js",
-              "RelativeDocumentMoniker": "Library.PL\\wwwroot\\dashboard\\vendors\\flot\\jquery.flot.categories.js",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\wwwroot\\dashboard\\vendors\\flot\\jquery.flot.categories.js",
-              "RelativeToolTip": "Library.PL\\wwwroot\\dashboard\\vendors\\flot\\jquery.flot.categories.js",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAMwH4AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-04T10:18:22.592Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "00000000000000_CreateIdentitySchema.cs",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.DAL\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "RelativeDocumentMoniker": "Library.DAL\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.DAL\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "RelativeToolTip": "Library.DAL\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T10:15:52.823Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.DAL\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Library.DAL\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.DAL\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Library.DAL\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T10:15:33.678Z"
+              "WhenOpened": "2024-10-28T17:55:28.036Z",
+              "EditorCaption": ""
             }
           ]
         }

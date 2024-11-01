@@ -55,6 +55,30 @@
       }
     });
 
+      var book_swiper = new Swiper(".book-carousel", {
+          slidesPerView: 8,
+          spaceBetween: 30,
+          speed: 500,
+          navigation: {
+              nextEl: ".book-carousel-next",
+              prevEl: ".book-carousel-prev",
+          },
+          breakpoints: {
+              0: {
+                  slidesPerView: 2,
+              },
+              768: {
+                  slidesPerView: 3,
+              },
+              991: {
+                  slidesPerView: 5,
+              },
+              1500: {
+                  slidesPerView: 8,
+              },
+          }
+      });
+
     $(".products-carousel").each(function(){
       var $el_id = $(this).attr('id');
 

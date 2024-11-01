@@ -25,10 +25,13 @@
                 <div class="form-group">
                     <label asp-for="Name">Name</label>
                     <input asp-for="Name" class="form-control border border-1 border-dark">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+
                 </div>
                 <div class="form-group">
                     <label asp-for="Image">Image</label>
                     <input asp-for="Image" class="form-control border border-1 border-dark">
+
                 </div>
                 <div class="form-group lh-1">
                     <label asp-for="IsDeleted">IsDeleted :</label>

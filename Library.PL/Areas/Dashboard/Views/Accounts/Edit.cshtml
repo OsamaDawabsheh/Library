@@ -23,32 +23,32 @@
                 <input asp-for="Id" type="hidden" />
 
                 <div class="form-group">
-                    <label asp-for="@Model.Image">User Image</label>
-                    <input asp-for="@Model.Image" class="form-control">
+                    <label asp-for="Image">User Image</label>
+                    <input asp-for="Image" class="form-control">
+                    <span asp-validation-for="Image" class="text-danger"></span>
+
                 </div>
                 <div class="form-group">
-                    <label asp-for="@Model.UserName">User Name</label>
-                    <input asp-for="@Model.UserName" class="form-control">
+                    <label asp-for="UserName">User Name</label>
+                    <input asp-for="UserName" class="form-control">
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+
                 </div>
                 <div class="form-group">
-                    <label asp-for="@Model.Email">Email</label>
-                    <input asp-for="@Model.Email" class="form-control">
+                    <input asp-for="Email" class="form-control" type="hidden">
+
+                </div> 
+                <div class="form-group">
+                    <label asp-for="PhoneNumber">Phone</label>
+                    <input asp-for="PhoneNumber" class="form-control">
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+
                 </div>
                 <div class="form-group">
-                    <label asp-for="@Model.Password">Password</label>
-                    <input asp-for="@Model.Password" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label asp-for="@Model.ConfirmPassword">Confirm Password</label>
-                    <input asp-for="@Model.ConfirmPassword" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label asp-for="@Model.PhoneNumber">Phone</label>
-                    <input asp-for="@Model.PhoneNumber" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label asp-for="@Model.Address">Address</label>
-                    <input asp-for="@Model.Address" class="form-control">
+                    <label asp-for="Address">Address</label>
+                    <input asp-for="Address" class="form-control">
+                    <span asp-validation-for="Address" class="text-danger"></span>
+
                 </div>
                 <div class="form-group lh-1">
                     <label asp-for="IsDeleted">IsDeleted :</label>

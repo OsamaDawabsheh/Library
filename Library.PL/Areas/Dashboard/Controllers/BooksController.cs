@@ -3,6 +3,7 @@ using Library.DAL.Data;
 using Library.DAL.Models;
 using Library.PL.Areas.Dashboard.ViewModels;
 using Library.PL.Helpers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -13,6 +14,7 @@ using System.Net;
 namespace Library.PL.Areas.Dashboard.Controllers
 {
     [Area("Dashboard")]
+    [Authorize(Roles = "Admin")]
 
     public class BooksController : Controller
     {
@@ -28,9 +30,8 @@ namespace Library.PL.Areas.Dashboard.Controllers
         public IActionResult Index()
         {
             ViewData["BookCategories"] = context.BookCategories.ToList();
-            ViewData["Categorise"] = context.Categories.ToList();
 
-            return View(mapper.Map<IEnumerable<BookVM>>(context.Books.ToList()));
+            return View(mapper.Map<IEnumerable<BookVM>>(context.Books.Include(b => b.categories).ToList()));
         }
 
 
@@ -140,12 +141,13 @@ namespace Library.PL.Areas.Dashboard.Controllers
                 FilesSettings.DeleteFile(model.File, "books");
                 model.File = FilesSettings.UploadFile(model.BookFile, "books");
             }
-
             if (!ModelState.IsValid)
             {
                 return View(model);
             }
 
+            
+            
        var book = context.Books
        .Include(b => b.categories) 
        .FirstOrDefault(b => b.Id == model.Id);
@@ -154,8 +156,9 @@ namespace Library.PL.Areas.Dashboard.Controllers
             {
                 return NotFound();
             }
-            book.categories.Clear();
 
+            book.categories.Clear();
+            mapper.Map(model, book);
             if (model.categoriesId != null)
             {
                 foreach (var item in model.categoriesId)
@@ -163,15 +166,14 @@ namespace Library.PL.Areas.Dashboard.Controllers
                     var category = context.Categories.Find(item);
                     if (category != null)
                     {
-                        model.categories.Add(category);
+
+                            book.categories.Add(category);
                     }
                 }
             }
 
-            mapper.Map(model, book);
-
-
-            context.SaveChanges();
+         
+            await context.SaveChangesAsync();
 
             return RedirectToAction(nameof(Index));
             
@@ -200,11 +202,10 @@ namespace Library.PL.Areas.Dashboard.Controllers
             return View(mapper.Map<BookVM>(book));
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Delete(BookVM model)
+
+        public IActionResult DeleteConfirm(int id)
         {
-            var book = context.Books.Find(model.Id);
+            var book = context.Books.Find(id);
 
             if (book is null)
             {
@@ -219,7 +220,7 @@ namespace Library.PL.Areas.Dashboard.Controllers
             context.SaveChanges();
 
 
-            return RedirectToAction(nameof(Index));
+            return Ok(new { msg = "The Book deleted successfully" });
 
         }
     }

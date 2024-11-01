@@ -12,16 +12,14 @@ namespace Library.PL.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> logger;
         private readonly ApplicationDbContext context;
         private readonly IMapper mapper;
         private readonly UserManager<ApplicationUser> userManager;
         private readonly SignInManager<ApplicationUser> signInManager;
         private readonly RoleManager<IdentityRole> roleManager;
 
-        public HomeController(ILogger<HomeController> logger ,ApplicationDbContext context, IMapper mapper, UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, RoleManager<IdentityRole> roleManager)
+        public HomeController(ApplicationDbContext context, IMapper mapper, UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, RoleManager<IdentityRole> roleManager)
         {
-            this.logger = logger;
             this.context = context;
             this.mapper = mapper;
             this.userManager = userManager;
@@ -31,6 +29,8 @@ namespace Library.PL.Controllers
 
         public IActionResult Index()
         {
+            ViewData["Categories"] = mapper.Map<IEnumerable<CategoryVM>>(context.Categories.ToList());
+            ViewData["Books"] = mapper.Map<IEnumerable<BookVM>>(context.Books.ToList());
             return View();
         }
 
@@ -45,42 +45,7 @@ namespace Library.PL.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        [HttpGet]
-        public IActionResult Login(string returnUrl = null)
-        {
-            ViewData["ReturnUrl"] = returnUrl;
-            return View();
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Login(LoginVM model)
-        {
-            if (!ModelState.IsValid)
-            {
-                return View(model);
-
-            }
-
-            var result = await signInManager.PasswordSignInAsync(model.Email, model.Password,isPersistent:false , lockoutOnFailure: false);
-
-            logger.LogInformation($"Login attempt for user {model.Email}: Succeeded = {result.Succeeded}, " +
-    $"IsLockedOut = {result.IsLockedOut}, IsNotAllowed = {result.IsNotAllowed}, RequiresTwoFactor = {result.RequiresTwoFactor}");
-
-            if (result.Succeeded)
-            {
-                return RedirectToAction("Index");
-            }
-            return View(model);
-        }
-
-
-            [HttpPost]
-            public async Task<IActionResult> Logout()
-            {
-                await signInManager.SignOutAsync();
-                return RedirectToAction("Index");
-            }
+  
 
         }
 }

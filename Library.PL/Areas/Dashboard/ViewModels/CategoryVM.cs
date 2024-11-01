@@ -6,6 +6,8 @@ namespace Library.PL.Areas.Dashboard.ViewModels
     public class CategoryVM
     {
         public int Id { get; set; }
+
+        [Required]
         public string Name { get; set; } = null!;
         public string? Img { get; set; }
         [Required]

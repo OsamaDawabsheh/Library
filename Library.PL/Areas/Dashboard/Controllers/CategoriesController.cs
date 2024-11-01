@@ -3,12 +3,14 @@ using Library.DAL.Data;
 using Library.DAL.Models;
 using Library.PL.Areas.Dashboard.ViewModels;
 using Library.PL.Helpers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Library.PL.Areas.Dashboard.Controllers
 {
     [Area("Dashboard")]
+    [Authorize(Roles = "Admin")]
 
     public class CategoriesController : Controller
     {
@@ -74,8 +76,7 @@ namespace Library.PL.Areas.Dashboard.Controllers
             {
                 ModelState.Remove("image");
             }
-            else
-            {
+            
                 if (!ModelState.IsValid)
                 {
                     return View(model);
@@ -83,7 +84,7 @@ namespace Library.PL.Areas.Dashboard.Controllers
 
                 FilesSettings.DeleteFile(model.Img, "categories");
                 model.Img = FilesSettings.UploadFile(model.Image, "categories");
-            }
+           
 
 
             var category = context.Categories.Find(model.Id);
@@ -113,8 +114,6 @@ namespace Library.PL.Areas.Dashboard.Controllers
             return View(mapper.Map<CategoryVM>(category));
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirm(int id)
         {
             var category = context.Categories.Find(id);
@@ -129,7 +128,7 @@ namespace Library.PL.Areas.Dashboard.Controllers
 
             context.SaveChanges();
 
-            return RedirectToAction(nameof(Index));
+            return Ok(new { msg = "The category deleted successfully" });
 
         }
 
