@@ -15,7 +15,7 @@ using System.Data;
 namespace Library.PL.Areas.Dashboard.Controllers
 {
     [Area("Dashboard")]
-    //[Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin")]
     public class AccountsController : Controller
     {
         private readonly ApplicationDbContext context;
