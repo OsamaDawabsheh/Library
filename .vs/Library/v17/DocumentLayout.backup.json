@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\accounts\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\accounts\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\views\\accounts\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\views\\accounts\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\accounts\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|solutionrelative:library.pl\\areas\\dashboard\\views\\accounts\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88072589-CEA4-46A6-A02F-CC3E2135796B}|Library.PL\\Library.PL.csproj|f:\\===fullstack===\\c#\u002Basp\\library\\library.pl\\areas\\dashboard\\views\\accounts\\roles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -224,39 +224,27 @@
               "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Controllers\\AccountsController.cs",
               "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Controllers\\AccountsController.cs",
               "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Controllers\\AccountsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAD0BAAAAAAAAAAAqwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T09:04:31.09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AccountsController.cs",
               "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Controllers\\AccountsController.cs",
               "RelativeDocumentMoniker": "Library.PL\\Controllers\\AccountsController.cs",
               "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Controllers\\AccountsController.cs",
               "RelativeToolTip": "Library.PL\\Controllers\\AccountsController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAvwJwAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAawCQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T08:26:47.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Accounts\\Register.cshtml",
-              "RelativeDocumentMoniker": "Library.PL\\Views\\Accounts\\Register.cshtml",
-              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Accounts\\Register.cshtml",
-              "RelativeToolTip": "Library.PL\\Views\\Accounts\\Register.cshtml",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAHQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T08:07:15.598Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Login.cshtml",
               "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Accounts\\Login.cshtml",
               "RelativeDocumentMoniker": "Library.PL\\Views\\Accounts\\Login.cshtml",
@@ -268,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Index.cshtml",
               "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Index.cshtml",
@@ -280,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CheckConfirmEmail.cshtml",
               "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Accounts\\CheckConfirmEmail.cshtml",
               "RelativeDocumentMoniker": "Library.PL\\Views\\Accounts\\CheckConfirmEmail.cshtml",
@@ -292,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Edit.cshtml",
               "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Edit.cshtml",
@@ -304,15 +292,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Register.cshtml",
               "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Register.cshtml",
               "RelativeDocumentMoniker": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Register.cshtml",
               "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Register.cshtml",
               "RelativeToolTip": "Library.PL\\Areas\\Dashboard\\Views\\Accounts\\Register.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAH0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAABsAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T08:09:24.298Z"
+              "WhenOpened": "2024-10-29T08:09:24.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Accounts\\Register.cshtml",
+              "RelativeDocumentMoniker": "Library.PL\\Views\\Accounts\\Register.cshtml",
+              "ToolTip": "F:\\===FullStack===\\C#\u002BASP\\Library\\Library.PL\\Views\\Accounts\\Register.cshtml",
+              "RelativeToolTip": "Library.PL\\Views\\Accounts\\Register.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAHQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T08:07:15.598Z"
             },
             {
               "$type": "Document",

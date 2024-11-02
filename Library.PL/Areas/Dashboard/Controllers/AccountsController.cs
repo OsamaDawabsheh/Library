@@ -52,109 +52,14 @@ namespace Library.PL.Areas.Dashboard.Controllers
                 return View(userVMs);
         }
 
+        [HttpGet]
+
         public IActionResult Register()
         {
 
             return View();
         }
 
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Register(RegisterVM model)
-        {
-
-            if (!ModelState.IsValid)
-            {
-                return View(model);
-            }
-
-            if (!ModelState.IsValid)
-            {
-                return View(model);
-            }
-
-            var existingUser = await userManager.FindByEmailAsync(model.Email);
-            if (existingUser != null)
-            {
-                ViewBag.EmailExist = "Email is already taken";
-
-                return View(model);
-            }
-
-            model.Img = FilesSettings.UploadFile(model.Image, "users");
-
-
-            var user = mapper.Map<ApplicationUser>(model);
-
-            var result = await userManager.CreateAsync(user, model.Password);
-
-            if (result.Succeeded)
-            {
-                await userManager.AddToRoleAsync(user, "user");
-
-                var token = await userManager.GenerateEmailConfirmationTokenAsync(user);
-                var confirmEmailURL = Url.Action("ConfirmEmail", "Accounts", new { area = "", id = user.Id, token = token }, protocol: HttpContext.Request.Scheme);
-
-                var body = $@"
-<html>
-        <body>
- <div style='width: 100%; padding: 20px; display: flex; justify-content: center;'>
-            <table style='max-width: 400px; border: 3px solid #4CAF50; padding: 20px; border-radius: 50px; text-align: center;'>
-                <tr>
-                    <td>
-                        <h3 style='color: #4CAF50; font-size: 24px; margin-bottom: 20px;'>Confirm Email</h3>
-                    </td>
-                </tr>
-                <tr>
-                    <td style='pading: 10px 0;'>
-                        <p style='color: #333; font-size: 16px;'>
-                            If you requested to confirm your email, please click the link below.
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td style='padding: 20px 0;'>
-                        <a href='{confirmEmailURL}'' style='background-color: #4CAF50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 20px; display: inline-block;'>
-                            Confirm Email
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td style='padding: 10px 0;'>
-                        <p style='color: #333; font-size: 14px;'>
-                            If you didn't request a email confirm, please ignore this email.
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td style='padding-top: 20px;'>
-                        <p style='color: #666; font-size: 14px;'>
-                            Best regards,<br>Library
-                        </p>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        </body>
-    </html>
-";
-
-                var email = new Email()
-                {
-                    Subject = "Confirm Email",
-                    Receiver = model.Email,
-                    Body = body
-                };
-                EmailSettings.SendEmail(email);
-
-                return RedirectToAction("CheckConfirmEmail","Accounts" ,new  { area = ""});
-            }
-            TempData["Error"] = string.Join(" ", result.Errors.Select(e => e.Description));
-            return View(model);
-        }
-
-       
         
 
         [HttpGet]
