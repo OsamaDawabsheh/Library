@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Library.PL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+739dd9c04f7cc1d610209aecf6d2adf185fe864f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+050f4ed9380e63568465fc0c6b7da82cbd2d5eca")]
 [assembly: System.Reflection.AssemblyProductAttribute("Library.PL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Library.PL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

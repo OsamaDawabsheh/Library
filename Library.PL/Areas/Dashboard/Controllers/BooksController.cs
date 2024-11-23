@@ -126,24 +126,33 @@ namespace Library.PL.Areas.Dashboard.Controllers
             if (model.Image is null)
             {
                 ModelState.Remove("Image");
+
             }
             else
             {
+                if (!ModelState.IsValid)
+                {
+                    return View(model);
+                }
+
                 FilesSettings.DeleteFile(model.Img, "images");
                 model.Img = FilesSettings.UploadFile(model.Image, "images");
             }
             if (model.BookFile is null)
             {
                 ModelState.Remove("BookFile");
+
             }
             else
             {
+
+                if (!ModelState.IsValid)
+                {
+                    return View(model);
+                }
+
                 FilesSettings.DeleteFile(model.File, "books");
                 model.File = FilesSettings.UploadFile(model.BookFile, "books");
-            }
-            if (!ModelState.IsValid)
-            {
-                return View(model);
             }
 
             

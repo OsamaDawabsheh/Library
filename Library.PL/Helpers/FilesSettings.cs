@@ -14,13 +14,19 @@
         }
         public static void DeleteFile(string fileName , string folderName)
         {
-            string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\files", folderName,fileName);
-            if (File.Exists(filePath))
+            try
             {
-                FileStream filestream = new FileStream(filePath,FileMode.Open);
-                filestream.Close();
-                File.Delete(filePath);
+                string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "files", folderName, fileName);
 
+                if (File.Exists(filePath))
+                {
+                    File.Delete(filePath);
+                }
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"An error occurred while trying to delete the file: {e.Message}");
             }
 
 

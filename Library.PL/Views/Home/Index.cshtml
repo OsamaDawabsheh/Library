@@ -50,10 +50,13 @@
                             {
                                 foreach (var category in categories)
                                 {
-                                    <div class="swiper-slide text-center">
-                                        <img src="~/files/categories/@category.Img" class="rounded-circle border border-1 border-dark" alt="Category Thumbnail" width="130" height="130">
-                                        <h4 class="fs-6 mt-3 fw-normal category-title">@category.Name</h4>
-                                    </div>
+                                                <div class="swiper-slide text-center">
+                                                    <a asp-controller="Categories" asp-action="CategoryBooks" asp-route-id="@category.Id" class="nav-link text-center " style="width:150px;" role="group" aria-label="1 / 12">
+
+                                                        <img src="~/files/categories/@category.Img" class="rounded-circle border border-1 border-dark" alt="Category Thumbnail" width="130" height="130">
+                                                        <h4 class="fs-6 mt-3 fw-normal category-title">@category.Name</h4>
+                                                        </a>
+                                                </div>
                                 }
 
                             }

@@ -11,29 +11,36 @@
     <div class="card">
         <div class="card-body">
             <h4 class="card-title mb-4 bg-primary text-light p-2 text-center ">Details</h4>
-            <div class="d-flex justify-content-around mb-4">
+                <div class="row mb-5">
+                    <div class="col-lg-6 col-md-12 flex-column">
+                        <h5 class="mb-4">Title : @Model.Title</h5>
 
-                <div class="d-flex flex-column">
-                    <h5 class="mb-4">Title : @Model.Title</h5>
-                    <p>Description : @Html.Raw(Model.Description)</p>
-                    <p>Author : @Model.Author</p>
+                        <div class="d-flex gap-2 flex-wrap">
+                            <p>Description : </p>
 
-                    <p>ISBN : @Model.ISBN</p>
+                            @Html.Raw(Model.Description)
+                        </div>
 
-                    <p>Publication Date : @Model.PublicationDate</p>
+                        <p>Author : @Model.Author</p>
 
-                    <p>
-                        Categories :
-                        @Html.Raw(string.Join(" , ", bookCategories
-                        .Where(bc => bc.BookId == Model.Id)
-                        .Select(category => category.category.Name)))
-                    </p>
+                        <p>ISBN : @Model.ISBN</p>
 
+                        <p>Publication Date : @Model.PublicationDate</p>
+
+                        <p>
+                            Categories :
+                            @Html.Raw(string.Join(" , ", bookCategories
+                            .Where(bc => bc.BookId == Model.Id)
+                            .Select(category => category.category.Name)))
+                        </p>
+
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <img src="~/files/images/@(Model.Img)" alt="book img"  style="width:100%"/>
+                    </div>
                 </div>
-                <img src="~/files/images/@(Model.Img)" alt="book img" />
-            </div>
 
-            @if (User.IsInRole("User"))
+            @if (User.Identity.IsAuthenticated)
             {
             <embed src="~/files/books/@(Model.File)"
                    type="application/pdf"

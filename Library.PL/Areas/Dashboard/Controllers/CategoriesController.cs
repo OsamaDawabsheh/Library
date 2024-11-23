@@ -75,8 +75,10 @@ namespace Library.PL.Areas.Dashboard.Controllers
             if (model.Image is null)
             {
                 ModelState.Remove("image");
+
             }
-            
+            else
+            {
                 if (!ModelState.IsValid)
                 {
                     return View(model);
@@ -84,9 +86,12 @@ namespace Library.PL.Areas.Dashboard.Controllers
 
                 FilesSettings.DeleteFile(model.Img, "categories");
                 model.Img = FilesSettings.UploadFile(model.Image, "categories");
+            }
+            
            
 
 
+           
             var category = context.Categories.Find(model.Id);
 
             if (category is null)

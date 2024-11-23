@@ -90,15 +90,16 @@ namespace Library.PL.Areas.Dashboard.Controllers
             }
             else
             {
+                if (!ModelState.IsValid)
+                {
+                    return View(model);
+                }
                 FilesSettings.DeleteFile(model.Img, "users");
                 model.Img = FilesSettings.UploadFile(model.Image, "users");
 
             }
 
-            if (!ModelState.IsValid)
-                {
-                    return View(model);
-                }
+       
 
 
 
